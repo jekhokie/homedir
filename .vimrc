@@ -1,5 +1,3 @@
-colorscheme base16-default
-
 set pastetoggle=<F2>
 
 au BufNewFile,BufRead *.pp setlocal ft=ruby
