@@ -25,5 +25,3 @@ WHITE="\[\033[0;37m\]"
 . ~/.prompt_scripts/git-prompt.sh
 
 export PS1="$RED\h:$GREEN\w$YELLOW \$(parse_git_branch)$WHITE\$ "
-
-complete -W "$(echo `cat ~/.ssh/known_hosts | cut -f 1 -d ' ' | sed -e s/,.*//g | uniq | /bin/grep -v "\["`;)" ssh
