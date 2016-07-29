@@ -1,0 +1,16 @@
+[user]
+  name = Justin Karimi
+  email = jekhokie@gmail.com
+  #email = jkarimi@cimpress.com
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[push]
+  default = tracking
+[rebase]
+  autosquash = true
+[alias]
+  graph = log --graph --format='%h %Cred %ar %Cgreen %s %Cblue %an'
+  ri = rebase --interactive
+  rc = rebase --continue
