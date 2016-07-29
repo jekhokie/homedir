@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/jkarimi/.rvm/gems/ruby-2.2.1@ruby-oauth-example/gems/oauth-0.4.7/lib/oauth/signature/hmac'
+let g:netrw_dirhist_2='/Users/jkarimi/packer-tutorial/http/ubuntu16.04'
+let g:netrw_dirhist_3='/Users/jkarimi/devbox/packer/ubuntu16.04'
