@@ -1,6 +1,7 @@
 set pastetoggle=<F2>
 
 au BufNewFile,BufRead *.pp setlocal ft=ruby
+au BufNewFile,BufRead *.md,*.markdown setlocal spell
 
 call pathogen#infect()
 call pathogen#helptags()
