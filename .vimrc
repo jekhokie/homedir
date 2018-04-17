@@ -1,7 +1,6 @@
 set pastetoggle=<F2>
 
 au BufNewFile,BufRead *.pp setlocal ft=ruby
-au BufNewFile,BufRead *.md,*.markdown setlocal spell
 
 call pathogen#infect()
 call pathogen#helptags()
@@ -12,7 +11,7 @@ endif
 
 syntax enable
 filetype plugin indent on
-set sw=4 ts=4 sts=4
+set sw=2 ts=2 sts=2
 set expandtab
 
 set grepprg=grep\ -nH\ $*
