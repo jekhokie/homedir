@@ -1,4 +1,6 @@
 set pastetoggle=<F2>
+syntax on
+colorscheme sublimemonokai
 
 au BufNewFile,BufRead *.pp setlocal ft=ruby
 
