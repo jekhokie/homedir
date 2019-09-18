@@ -1,3 +1,6 @@
 # ignore swap files
 *.swp
 *.swo
+
+# ignore Mac-specific files and directories
+.DS_Store
