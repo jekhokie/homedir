@@ -9,3 +9,6 @@ rsync -r --exclude '.git' homedir/.* .
 chsh -s /bin/bash
 # enter password
 ```
+
+Next, use the `iterm2_profile.json` file to set up profile/appearance settings
+for the iTerm 2 terminal.
