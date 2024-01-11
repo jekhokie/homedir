@@ -25,3 +25,4 @@ WHITE="\[\033[0;37m\]"
 . ~/.prompt_scripts/git-prompt.sh
 
 export PS1="$RED\h:$GREEN\w$YELLOW \$(parse_git_branch)$WHITE\$ "
+export BASH_SILENCE_DEPRECATION_WARNING=1
