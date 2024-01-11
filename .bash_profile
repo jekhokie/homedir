@@ -3,7 +3,7 @@ alias screen='export SCREENPWD=$(pwd); /usr/bin/screen'
 
 export NODE_PATH=/usr/local/lib/node_modules
 export EDITOR=/usr/bin/vim
-export CC=/usr/local/bin/gcc-4.2
+export CC=/usr/bin/gcc
 
 if test -f ~/.rvm/scripts/rvm; then
   [ "$(type -t rvm)" = "function" ] || source ~/.rvm/scripts/rvm
